@@ -9,7 +9,7 @@ def test_avg_expression():
     }
 
     # Act
-    avg_op = Average()            
+    avg_op = avg()            
     result_expression = avg_op.expression
 
     # Assert
